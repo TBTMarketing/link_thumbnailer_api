@@ -9,6 +9,8 @@ gem 'link_thumbnailer'
 gem 'rails_12factor'
 gem 'newrelic_rpm'
 
+gem 'sprockets', '~>3.7.2'
+
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
 end
